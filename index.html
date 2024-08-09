@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+        <div id="homepage">
+          <h1 class="text">Welcome</h1>
+          <div>
+            <h5 class="text">This page is open-source and free to use for all! Please support us by turning off adblockers or donate to us at notetakingapp.io. Note that discriminatory and inappopriate notes will not be rewarded and will be taken down by us.</h5>
+            <button id="createnewnote">Create New Note</button>
+          </div>
+        </div>
+
+
+  
+        <div id="notepage">
+          
+          
+  
+  <div class="title">
+    <h1 id="title" class="text">Note Taking Application</h1>
+    </div>
+  <div class="toolbox">
+  
+    <h1 id="background">
+      <input class="colourSelector" type="color" onchange="changeColour()" id="color-picker">
+      <p id="toolbox-text" class="text">Change Colour Here!</p>
+    </h1>
+    <button id="back-button" class="text">back</button>
+  </div>
+  <div class="notes">
+    <textarea id="note-space" type="text" placeholder="write something..."></textarea>
+  </div>
+  <div class="toolbox">
+    <h1 id="background-bottom">
+      <input placeholder="input font size(px)"type="number" class="size text-input" id="size-select" onchange="changeSize()" value=12></input>
+      <select id="fonts-selection" onchange="changeFont()" class="text-input">
+        <option class="options" value="Arial" style.fontFamily="Arial;">Arial</option>
+        <option value="Helvetica" style.fontFamily="Helvetica;">Helvetica</option>
+        <option class="options" value="Baskerville" style.fontFamily="Baskerville;">Baskerville</option>
+        <option  class="options" value="Times New Roman" style.fontFamily="Times New Roman;">Times New Roman</option>
+        <option class="options" value="Gill Sans" style.fontFamily="Gill Sans;">Gill Sans</option>
+        <option class="options" value="Comic Sans MS" style.fontFamily="Comic Sans MS;">Comic Sans MS</option>
+        <option class="options" value="Georgia" style.fontFamily="Georgia;">Georgia</option>
+        <option class="options" value="Verdana" style.fontFamily="Verdana;">Verdana</option>
+        <option class="options" value="Tahoma" style.fontFamily="Tahoma;">Tahoma</option>
+        <option class="options" value="Trebuchet MS" style.fontFamily="Trebuchet MS;">Trebuchet MS</option>
+        <option class="options" value="Garamond" style.fontFamily="Garamond">Garamond</option>
+        <option class="options" value="Courier New" style.fontFamily="Courier New;">Courier New</option>
+        <option value="Brush Script MT" style.fontFamily="Brush Script MT;">Brush Script MT</option>
+        <option value="Impact" style.fontFamily="Impact;">Impact</option>
+        <option value="Palatino" style.fontFamily="Palatino;">Palatino</option>
+        <option value="Lucida" style.fontFamily="Lucida;">Lucida</option>
+        <option value="Monaco;" style.fontFamily="Monaco;">Monaco</option>
+        <option value="Bradley Hand" style.fontFamily="Bradley Hand;">Bradley Hand</option>
+        <option value="Luminari" style.fontFamily="Luminari;">Luminari</option>
+      </select>
+      <input id="filename" placeholder="Specify a filename..." />
+      <button id="download">Download</button>
+    </h1>
+  </div>
+
+
+        
+        </div>
+  <style src="style.css"></style>
+  <script src="script.js"></script>
+</body>
+</html>

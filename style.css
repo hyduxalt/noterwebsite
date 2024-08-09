@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+#note-space{
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  bottom: 75px;
+  padding: 12px 20px;
+  margin: auto;
+  box-sizing: border-box;
+  border: none;
+  
+  
+  
+}
+#background{
+  width: 100%;
+  height: 60px;
+  background: #203354;
+  
+}
+.colourSelector{
+  border: none;
+  border-color: white;
+  
+  font-size: 8px;
+  margin: 16px;
+}
+.colourSelector{
+ transition-duration: 0.4s;
+}
+
+
+
+#background-bottom{
+  width: 100%;
+  height: 60px;
+  background: #203354;
+}
+.text-input{
+  border-radius:8px
+}
+.font-label{
+  color: white;
+  font-family: "Roboto";
+}
+#font{
+  position: relative;
+  padding: 5px;
+  top: 60px;
+  left: 10%;
+  
+}
+#size-select{
+  width:50px
+}
+#toolbox-text{
+  color: white;
+  position: relative;
+  bottom: 62px;
+  left: 80px;
+  font-family: 'Montserrat';
+  font-size: 20px
+}
+#title{
+  font-family: "Trebuchet MS";
+  position: relative;
+  margin: 20px;
+}
+#back-button{
+  position: relative;
+  left: 92%;
+  bottom: 77px;
+  font-size: 16px;
+  width: 69px;
+  height: 48px;
+  background-color: white;
+  color: #203354;
+  border-color: #203354;
+  border-radius: 10px
+  
+}
+#back-button:hover{
+  background-color: #203354;
+  color: white;
+  border-color: white;
+}
+#back-button{
+  transition-duration: 0.4s;
+}
+#homepage{
+  background-color: #203354;
+  color: white;
+  height: 100vh;
+  font-family: 'montserrat';
+}
+.text{
+  margin: 10px;
+}
+#createnewnote{
+  position: relative;
+  font-family: "montserrat";
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+  background-color: #203354;
+  border-color: white;
+ 
+}
+#createnewnote{
+  transition-duration: 0.4s;
+
+}
+#createnewnote:hover{
+ color: #203354;
+  background-color: white;
+  
+}
